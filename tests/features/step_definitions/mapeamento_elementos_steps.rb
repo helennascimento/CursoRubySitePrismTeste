@@ -1,8 +1,6 @@
 Quando('preencho o formulário') do
-    @mapeando = MapeandoElementosPage.new
-
-    @mapeando.load
-    @mapeando.preencher
+    home.load
+    home.preencher
 
   #chamando o metodo diferente
   #  @mapeando.nome.set 'helen'
